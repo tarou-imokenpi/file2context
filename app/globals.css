@@ -24,3 +24,40 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* 除外パターンツリーのコンパクト化 */
+.compact-tree .react-checkbox-tree {
+  font-size: 12px;
+}
+
+.compact-tree .react-checkbox-tree ol {
+  margin: 0;
+  padding-left: 0;
+}
+
+.compact-tree .react-checkbox-tree ol ol {
+  padding-left: 12px;
+}
+
+.compact-tree .react-checkbox-tree .rct-node {
+  margin: 0;
+  padding: 0;
+}
+
+.compact-tree .react-checkbox-tree .rct-text {
+  padding: 1px 0;
+}
+
+.compact-tree .react-checkbox-tree .rct-collapse,
+.compact-tree .react-checkbox-tree .rct-checkbox {
+  padding: 0 2px;
+}
+
+.compact-tree .react-checkbox-tree .rct-node-icon {
+  display: none;
+}
+
+.compact-tree .react-checkbox-tree .rct-title {
+  padding: 0;
+}
+
